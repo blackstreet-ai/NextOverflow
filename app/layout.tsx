@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DevOverflow",
-  description: "A better version of StackOverflow.",
+  title: "NextOverflow App",
+  description: "A Modern version of StackOverflow",
 };
 
 export default function RootLayout({
