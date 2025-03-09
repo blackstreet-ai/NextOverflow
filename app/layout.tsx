@@ -5,8 +5,6 @@ import React from "react";
 
 import "./globals.css";
 
-import Navbar from "@/components/navigation/navbar";
-
 const inter = localFont({
   src: "./fonts/InterVF.ttf",
   variable: "--font-inter",
@@ -44,7 +42,6 @@ export default function RootLayout({
           enableSystem={true}
           disableTransitionOnChange={true}
         >
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>
